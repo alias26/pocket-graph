@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# venv (created by install.py)
+venv/
+env/
+.venv/
+
+# Build artifacts
+build/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Output of pocket-graph
+graph-out/
+graph/
+pocket-graph-out/
+_selftest_out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local-only docs (kept on disk, not published)
+docs/COMPARISON.md
+docs/TROUBLESHOOTING.md
